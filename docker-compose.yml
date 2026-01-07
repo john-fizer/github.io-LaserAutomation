@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+    # Removed dependency on backend
+    environment:
+      - VITE_API_URL=http://localhost:3000 # Self-referential or dummy, won't be used successfully
