@@ -7,3 +7,10 @@ __pycache__/
 .env
 credentials.json
 token.json
+
+# Frontend dependencies and build
+frontend/node_modules/
+frontend/.vite/
+
+# Don't ignore frontend/dist - it's needed for GitHub Pages
+# frontend/dist/

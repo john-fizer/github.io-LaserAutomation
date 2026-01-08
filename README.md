@@ -10,8 +10,11 @@ fields missing
 
 backend folder not added because it crashes the code
 
-Live Demo
-Visit the site at: [https://special-chainsaw-v6q79r956p5rf6p4x-8501.app.github.dev/]
+## Live Demo
+
+**Streamlit App**: [https://laserautomation.streamlit.app/](https://laserautomation.streamlit.app/)
+
+**GitHub Pages** (React Frontend): Coming soon at [https://john-fizer.github.io/github.io-LaserAutomation/](https://john-fizer.github.io/github.io-LaserAutomation/)
 
 Features
 Dashboard: Real-time overview of production status, active lasers, and job queue
