@@ -11,7 +11,9 @@ fields missing
 backend folder not added because it crashes the code (no apis linked)
 
 Live Demo
-Visit the site at: [https://john-fizer.github.io/SandboxLaser/]
+Visit the site at: [Link to try mock website
+https://laserautomation.streamlit.app/]
+
 
 Features
 Dashboard: Real-time overview of production status, active lasers, and job queue
